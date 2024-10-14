@@ -61,6 +61,7 @@ header {
         img {
             width: 100%;
             position: relative;
+            top: -30px;
             background-size: cover;
         }
     }
@@ -411,11 +412,6 @@ main {
     50% {
         opacity: 0;
     }
-
-    99% {
-        z-index: -1;
-    }
-
     to {
         z-index: 1;
         max-height: 1610px;
@@ -500,7 +496,7 @@ footer {
             width: 50px;
             height: 50px;
             margin: 5px;
-            /* transition: background .2s; */
+            transition: all .1s;
         }
 
         .tg {
